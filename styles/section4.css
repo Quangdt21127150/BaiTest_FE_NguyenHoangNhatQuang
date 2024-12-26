@@ -1,0 +1,72 @@
+.section4 {
+  padding: 8.75rem 0;
+}
+
+.logos {
+  display: flex;
+  gap: 11.625rem;
+  overflow-x: auto;
+  margin: 5rem 0 8.75rem;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  gap: 8.0625rem;
+}
+
+.picture-container img {
+  width: 100%;
+}
+
+.reason {
+  text-align: left;
+}
+
+.reason h4 {
+  color: var(--almost-dark);
+  margin: 1.25rem 0 2.5rem;
+}
+
+.reason-cards {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.reason-card {
+  background-color: var(--light-red);
+  padding: 2rem;
+  border-radius: 0 var(--card-radius) 0 var(--card-radius);
+}
+
+.credibility {
+  margin: 0.75rem 0 0.25rem;
+}
+
+.selected-card {
+  border: solid 1px var(--almost-red);
+}
+
+@media screen and (min-width: 1025px) {
+  .bottom {
+    flex-direction: row;
+    padding: 8.75rem 10.417%;
+  }
+
+  .picture-container {
+    width: 50%;
+  }
+
+  .reason {
+    width: 50%;
+  }
+
+  .reason-cards {
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    column-gap: 2rem;
+    row-gap: 1.25rem;
+  }
+}

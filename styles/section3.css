@@ -1,0 +1,33 @@
+.section3 {
+  padding: 6.6875rem 0 6.625rem 0;
+}
+
+.section3 .learn-about {
+  margin: 0 auto;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2.5rem auto 3.5rem;
+  gap: 3rem;
+}
+
+.circle {
+  width: 90%;
+}
+
+@media screen and (min-width: 481px) {
+  .middle {
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .circle {
+    width: 30.9%;
+    margin-left: 3.1875rem;
+    margin-right: 8.6875rem;
+  }
+}
