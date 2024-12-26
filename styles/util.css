@@ -1,0 +1,120 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  color: var(--dark);
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --header-bg-color: #ffffff99;
+  --dark: #283248;
+  --almost-white: #fafafa;
+  --almost-red: #f14b23;
+  --almost-dark: #191919;
+  --light-red: #feede9;
+  --gray: #d9d9d933;
+  --picture-radius: 32px;
+  --card-radius: 40px;
+  --pill-radius: 9999px;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.upercase {
+  text-transform: uppercase;
+}
+
+.fw-regular {
+  font-weight: 400;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fs-small {
+  font-size: 16px;
+}
+
+.fs-normal {
+  font-size: 20px;
+}
+
+.fs-medium {
+  font-size: 24px;
+}
+
+.fs-large {
+  font-size: 40px;
+}
+
+.fs-larger {
+  font-size: 48px;
+}
+
+.fs-largest {
+  font-size: 64px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+body {
+  background-color: var(--dark);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.learn-about {
+  display: flex;
+  gap: 0.75rem;
+  width: fit-content;
+  height: 4.75rem;
+  background-color: var(--almost-red);
+  padding: 1rem 2.5rem;
+  border: 0;
+  border-radius: var(--pill-radius);
+  align-items: center;
+}
+
+.learn-about span {
+  color: var(--almost-white);
+}
+
+.section3,
+.section4,
+.section5 {
+  text-align: center;
+}
+
+.section3 h1,
+.section3 p,
+.section5 h1,
+.section5 p {
+  color: var(--almost-white);
+}
+
+.section4,
+.section6,
+footer {
+  background-color: white;
+}

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clone local</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/util.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/section1.css" />
+    <link rel="stylesheet" href="./styles/section2.css" />
+    <link rel="stylesheet" href="./styles/section3.css" />
+    <link rel="stylesheet" href="./styles/section4.css" />
+    <link rel="stylesheet" href="./styles/section5.css" />
+    <link rel="stylesheet" href="./styles/section6.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img src="./assets/logo.svg" alt="logo" id="logo" />
+
+      <nav>
+        <ul class="navbar">
+          <li class="fw-bold fs-normal"><a href="">Về chúng tôi</a></li>
+          <li class="fw-bold fs-normal"><a href="">Dịch vụ</a></li>
+          <li class="fw-bold fs-normal"><a href="">Sản phẩm</a></li>
+          <li class="fw-bold fs-normal"><a href="">Tin tức & Thị trường</a></li>
+          <li class="fw-bold fs-normal"><a href="">Nhân lực</a></li>
+          <li class="fw-bold fs-normal"><a href="">Video & Hình ảnh</a></li>
+          <li class="fw-bold fs-normal"><a href="">Liên hệ</a></li>
+        </ul>
+      </nav>
+
+      <button type="button" id="bars">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <button type="button" class="language-choice">
+        <img src="./assets/language.svg" alt="global" />
+        <span class="fw-bold fs-normal">VI</span>
+        <img src="./assets/down-arrow.svg" alt="down-arrow" />
+      </button>
+    </header>
+
+    <aside>
+      <ul id="sidebar">
+        <li class="fw-bold fs-normal"><a href="">Về chúng tôi</a></li>
+        <li class="fw-bold fs-normal"><a href="">Dịch vụ</a></li>
+        <li class="fw-bold fs-normal"><a href="">Sản phẩm</a></li>
+        <li class="fw-bold fs-normal"><a href="">Tin tức & Thị trường</a></li>
+        <li class="fw-bold fs-normal"><a href="">Nhân lực</a></li>
+        <li class="fw-bold fs-normal"><a href="">Video & Hình ảnh</a></li>
+        <li class="fw-bold fs-normal"><a href="">Liên hệ</a></li>
+      </ul>
+    </aside>
+
+    <main>
+      <section class="section1">
+        <div class="context">
+          <div class="logisticts">
+            <h1 class="fs-largest upercase">Hậu cần</h1>
+            <h4>
+              Lorem ipsum dolor sit amet consectetur. Varius nisi amet nullam
+              id. Eu odio et cras nisi eu congue faucibus sit. Pretium proin
+              dignissim urna aenean rhoncus feugiat. Dui phasellus sed tellus
+              nunc.
+            </h4>
+            <button type="button" class="learn-about">
+              <span class="fw-bold fs-medium">Tìm hiểu ngay</span>
+              <img
+                src="./assets/up-right-arrow.svg"
+                alt="up-right-arrow"
+                width="45.08px"
+              />
+            </button>
+          </div>
+
+          <div class="pictures">
+            <img
+              src="./assets/Frame1.png"
+              alt="Picture"
+              class="selected-picture"
+            />
+            <img src="./assets/Frame2.png" alt="Picture" />
+            <img src="./assets/Frame3.png" alt="Picture" />
+            <img src="./assets/Frame4.png" alt="Picture" />
+          </div>
+        </div>
+
+        <div class="pagination">
+          <button type="button" class="selected-button"></button>
+          <button type="button"></button>
+          <button type="button"></button>
+          <button type="button"></button>
+        </div>
+      </section>
+
+      <section class="section2">
+        <div class="about">
+          <h1 class="fs-large upercase">Về chúng tôi</h1>
+          <h4>
+            Lorem ipsum dolor sit amet consectetur. Varius nisi amet nullam id.
+            Eu odio et cras nisi eu congue faucibus sit. Pretium proin dignissim
+            urna aenean rhoncus feugiat. Dui phasellus sed tellus nunc.
+          </h4>
+          <div class="cards">
+            <div class="card">
+              <p class="fw-bold fs-larger">27 +</p>
+              <p class="fw-regular fs-normal">Varius nisi amet nullam id</p>
+            </div>
+            <div class="card">
+              <p class="fw-bold fs-larger">100 +</p>
+              <p class="fw-regular fs-normal">Varius nisi amet nullam id</p>
+            </div>
+            <div class="card">
+              <p class="fw-bold fs-larger">50 +</p>
+              <p class="fw-regular fs-normal">Varius nisi amet nullam id</p>
+            </div>
+            <div class="card">
+              <p class="fw-bold fs-larger">1000 +</p>
+              <p class="fw-regular fs-normal">Varius nisi amet nullam id</p>
+            </div>
+          </div>
+
+          <button type="button" class="learn-about">
+            <span class="fw-bold fs-medium">Tìm hiểu thêm</span>
+            <img
+              src="./assets/up-right-arrow.svg"
+              alt="up-right-arrow"
+              width="45.08px"
+            />
+          </button>
+        </div>
+        <div class="map">
+          <img src="./assets/Earth.png" alt="map" width="100%" />
+        </div>
+      </section>
+
+      <section class="section3">
+        <h1 class="upercase fs-large">Dịch vụ của chúng tôi</h1>
+
+        <div class="middle">
+          <p class="fw-bold fs-medium">Cung cấp giải pháp về hậu cần</p>
+
+          <img
+            src="./assets/circle_picture.png"
+            alt="circle-picture"
+            class="circle"
+          />
+
+          <button>
+            <img src="./assets/right-button.svg" alt="right-button" />
+          </button>
+        </div>
+
+        <button type="button" class="learn-about">
+          <span class="fw-bold fs-medium">Tìm hiểu thêm</span>
+          <img
+            src="./assets/up-right-arrow.svg"
+            alt="up-right-arrow"
+            width="45.08px"
+          />
+        </button>
+      </section>
+
+      <section class="section4">
+        <h1 class="fs-large upercase">Đối tác của chúng tôi</h1>
+
+        <div class="logos">
+          <img src="./assets/logo.svg" alt="logo" />
+          <img src="./assets/logo.svg" alt="logo" />
+          <img src="./assets/logo.svg" alt="logo" />
+          <img src="./assets/logo.svg" alt="logo" />
+          <img src="./assets/logo.svg" alt="logo" />
+          <img src="./assets/logo.svg" alt="logo" />
+          <img src="./assets/logo.svg" alt="logo" />
+          <img src="./assets/logo.svg" alt="logo" />
+        </div>
+
+        <div class="bottom">
+          <div class="picture-container">
+            <img src="./assets/pictures.svg" alt="pictures" />
+          </div>
+
+          <div class="reason">
+            <h1 class="fs-large upercase">Lý do chọn chúng tôi</h1>
+            <h4 class="fs-medium">
+              Lorem ipsum dolor sit amet consectetur. Varius nisi amet nullam
+              id. Eu odio et cras nisi eu congue faucibus sit. Pretium proin
+              dignissim urna aenean Varius nisi amet nullam id. Eu odio et cras
+              nisi eu
+            </h4>
+            <div class="reason-cards">
+              <div class="reason-card selected-card">
+                <img src="./assets/sun.svg" alt="sun" />
+                <p class="fw-bold fs-small credibility">Độ uy tín</p>
+                <p class="fw-regular fs-small">
+                  Lorem ipsum dolor sit amet consectetur. Varius nisi amet
+                  nullam id. Eu odio et cras nisi eu
+                </p>
+              </div>
+              <div class="reason-card">
+                <img src="./assets/sun.svg" alt="sun" />
+                <p class="fw-bold fs-small credibility">Độ uy tín</p>
+                <p class="fw-regular fs-small">
+                  Lorem ipsum dolor sit amet consectetur. Varius nisi amet
+                  nullam id. Eu odio et cras nisi eu
+                </p>
+              </div>
+              <div class="reason-card">
+                <img src="./assets/sun.svg" alt="sun" />
+                <p class="fw-bold fs-small credibility">Độ uy tín</p>
+                <p class="fw-regular fs-small">
+                  Lorem ipsum dolor sit amet consectetur. Varius nisi amet
+                  nullam id. Eu odio et cras nisi eu
+                </p>
+              </div>
+              <div class="reason-card">
+                <img src="./assets/sun.svg" alt="sun" />
+                <p class="fw-bold fs-small credibility">Độ uy tín</p>
+                <p class="fw-regular fs-small">
+                  Lorem ipsum dolor sit amet consectetur. Varius nisi amet
+                  nullam id. Eu odio et cras nisi eu
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section5">
+        <h1 class="upercase fs-large">Khách hàng nói gì về chúng tôi</h1>
+
+        <div class="switch">
+          <button>
+            <img src="./assets/left-angle.svg" alt="left-angle" />
+          </button>
+
+          <div class="pagination">
+            <button type="button" class="selected-button"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+            <button type="button"></button>
+          </div>
+
+          <button>
+            <img src="./assets/right-angle.svg" alt="right-angle" />
+          </button>
+        </div>
+
+        <div class="response-cards">
+          <div class="response-card">
+            <img src="/assets/avatar1.png" alt="avatar" />
+            <div class="response-card-context">
+              <p class="fw-regular fs-normal first">
+                “ Eu odio et cras nisi eu congue faucibus sit. Pretium proin
+                dignissim urna aenean Varius nisi amet nullam id. Eu odio et
+                cras nisi eu.”
+              </p>
+
+              <div class="second">
+                <p class="fw-regular">
+                  <span class="fw-bold">Ms Taylor</span> | Founder ABC
+                </p>
+
+                <img src="/assets/quote.png" alt="quote" />
+              </div>
+            </div>
+          </div>
+          <div class="response-card">
+            <img src="/assets/avatar2.png" alt="avatar" />
+            <div class="response-card-context">
+              <p class="fw-regular fs-normal first">
+                “ Eu odio et cras nisi eu congue faucibus sit. Pretium proin
+                dignissim urna aenean Varius nisi amet nullam id. Eu odio et
+                cras nisi eu.”
+              </p>
+
+              <div class="second">
+                <p class="fw-regular">
+                  <span class="fw-bold">Mr David</span> | Founder ABC
+                </p>
+
+                <img src="/assets/quote.png" alt="quote" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section6">
+        <div class="news">
+          <h1 class="upercase fs-large">Tin tức</h1>
+
+          <div class="views">
+            <a class="fw-regular fs-normal underline">Xem tất cả</a>
+            <div class="circle-buttons">
+              <button type="button">
+                <img src="./assets/circle-arrow-left.svg" alt="circle-left" />
+              </button>
+              <button type="button">
+                <img src="./assets/circle-arrow-right.svg" alt="circle-left" />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="new-cards">
+          <img src="/assets/new1.png" alt="news" />
+          <img src="/assets/new2.png" alt="news" />
+          <img src="/assets/new3.png" alt="news" />
+        </div>
+
+        <div class="new-cards-pc">
+          <div class="two-news">
+            <img src="/assets/new1.png" alt="news" />
+            <img src="/assets/new2.png" alt="news" />
+          </div>
+          <img src="/assets/new3.png" alt="news" class="new3" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-context"></div>
+
+      <button>
+        <img src="/assets/Button.png" alt="button" />
+      </button>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+.section2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  background-color: white;
+  padding: 1rem;
+}
+
+.about h4 {
+  margin: 1.25rem 0 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(250px, 1fr));
+  gap: 2.5rem;
+}
+
+.card {
+  background-color: var(--dark);
+  text-align: center;
+  padding: 0.8125rem 0;
+  border-radius: 0 var(--card-radius) 0 var(--card-radius);
+}
+
+.card p {
+  color: var(--almost-white);
+}
+
+.about button {
+  margin: 2.5rem auto 0;
+}
+
+.map {
+  padding: 2rem;
+}
+
+@media screen and (min-width: 1025px) {
+  .section2 {
+    flex-direction: row;
+  }
+
+  .about {
+    width: 50%;
+    padding: 9.375rem 2rem;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+  }
+
+  .about button {
+    margin: 2.5rem 0 0;
+  }
+
+  .map {
+    width: 50%;
+    padding: 16.1875rem 3.0625rem;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .about {
+    padding-left: 12.5em;
+    padding-right: 10.6875em;
+  }
+}

@@ -1,0 +1,8 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 43.625rem;
+  padding: auto 0;
+  padding-left: 12.5rem;
+  padding-right: 3.6875rem;
+}

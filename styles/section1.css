@@ -1,0 +1,84 @@
+.section1 {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5.8125rem;
+}
+
+.context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logisticts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18.625rem;
+  align-items: center;
+}
+
+.logisticts h1 {
+  color: var(--almost-white);
+}
+
+.logisticts h4 {
+  margin: 0.6875rem 0 2.5rem;
+  color: white;
+  width: 81.97%;
+  text-align: center;
+}
+
+.pictures {
+  position: relative;
+  overflow: hidden;
+  margin-top: 17.8125rem;
+  display: flex;
+  gap: 2.5rem;
+  align-items: end;
+}
+
+.pictures img {
+  border-radius: var(--picture-radius);
+  width: 14.75rem;
+  height: 17rem;
+}
+
+.selected-picture {
+  border: solid 6px white;
+  width: 19.5rem !important;
+  height: 23.75rem !important;
+}
+
+.section1 .pagination {
+  display: flex;
+  gap: 0.75rem;
+  margin: 6.5rem auto 0;
+}
+
+.pagination button {
+  border-radius: var(--pill-radius);
+  background-color: var(--gray);
+  width: 24px;
+  height: 24px;
+}
+
+.selected-button {
+  background-color: var(--almost-white) !important;
+}
+
+@media screen and (min-width: 1025px) {
+  .context {
+    flex-direction: row;
+    gap: 4.9375rem;
+  }
+
+  .logisticts {
+    align-items: start;
+    margin-left: 9.125rem;
+    width: 41.25rem;
+  }
+
+  .logisticts h4 {
+    text-align: left;
+  }
+}
